@@ -1,0 +1,35 @@
+node_modules/
+
+# Environment secrets and private keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+
+# Database seed files and local data
+seed.js
+seed.ts
+seed.mjs
+seed.cjs
+seed.*.js
+seed.*.ts
+seeds/
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs, uploads, temporary, and generated files
+*.log
+logs/
+uploads/
+tmp/
+temp/
+coverage/
+dist/
+build/
+.cache/
+.DS_Store
+Thumbs.db
